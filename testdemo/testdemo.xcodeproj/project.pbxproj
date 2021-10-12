@@ -17,6 +17,7 @@
 		B13BEB4C2715738B00B36FB3 /* testdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BEB4B2715738B00B36FB3 /* testdemoTests.swift */; };
 		B13BEB572715738B00B36FB3 /* testdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BEB562715738B00B36FB3 /* testdemoUITests.swift */; };
 		B13BEB68271575BF00B36FB3 /* wwwVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BEB67271575BF00B36FB3 /* wwwVC.swift */; };
+		B13BEB6D2715766E00B36FB3 /* eeeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BEB6C2715766E00B36FB3 /* eeeeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B13BEB562715738B00B36FB3 /* testdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testdemoUITests.swift; sourceTree = "<group>"; };
 		B13BEB582715738B00B36FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B13BEB67271575BF00B36FB3 /* wwwVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wwwVC.swift; sourceTree = "<group>"; };
+		B13BEB6C2715766E00B36FB3 /* eeeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eeeeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B13BEB312715738900B36FB3 /* AppDelegate.swift */,
 				B13BEB332715738900B36FB3 /* SceneDelegate.swift */,
 				B13BEB67271575BF00B36FB3 /* wwwVC.swift */,
+				B13BEB6C2715766E00B36FB3 /* eeeeVC.swift */,
 				B13BEB352715738900B36FB3 /* ViewController.swift */,
 				B13BEB372715738900B36FB3 /* Main.storyboard */,
 				B13BEB3D2715738B00B36FB3 /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 				B13BEB322715738900B36FB3 /* AppDelegate.swift in Sources */,
 				B13BEB3C2715738900B36FB3 /* testdemo.xcdatamodeld in Sources */,
 				B13BEB342715738900B36FB3 /* SceneDelegate.swift in Sources */,
+				B13BEB6D2715766E00B36FB3 /* eeeeVC.swift in Sources */,
 				B13BEB68271575BF00B36FB3 /* wwwVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
