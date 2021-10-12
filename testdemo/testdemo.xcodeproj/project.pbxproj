@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B13BEB322715738900B36FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BEB312715738900B36FB3 /* AppDelegate.swift */; };
-		B13BEB342715738900B36FB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BEB332715738900B36FB3 /* SceneDelegate.swift */; };
 		B13BEB362715738900B36FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BEB352715738900B36FB3 /* ViewController.swift */; };
 		B13BEB392715738900B36FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13BEB372715738900B36FB3 /* Main.storyboard */; };
 		B13BEB3C2715738900B36FB3 /* testdemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B13BEB3A2715738900B36FB3 /* testdemo.xcdatamodeld */; };
@@ -16,8 +15,8 @@
 		B13BEB412715738B00B36FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13BEB3F2715738B00B36FB3 /* LaunchScreen.storyboard */; };
 		B13BEB4C2715738B00B36FB3 /* testdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BEB4B2715738B00B36FB3 /* testdemoTests.swift */; };
 		B13BEB572715738B00B36FB3 /* testdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BEB562715738B00B36FB3 /* testdemoUITests.swift */; };
-		B13BEB68271575BF00B36FB3 /* wwwVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BEB67271575BF00B36FB3 /* wwwVC.swift */; };
-		B13BEB6D2715766E00B36FB3 /* eeeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BEB6C2715766E00B36FB3 /* eeeeVC.swift */; };
+		B13BECA227157E4800B36FB3 /* WaterfallFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BECA127157E4800B36FB3 /* WaterfallFlowLayout.swift */; };
+		BBB87139B2047815FDF91E71 /* Pods_testdemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A8786793B2E1AEA44B0D96 /* Pods_testdemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52B04C8C43A7BBB9F63FD5EC /* Pods-testdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testdemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-testdemo/Pods-testdemo.release.xcconfig"; sourceTree = "<group>"; };
+		5831691B3F4D7E2152CD9E5C /* Pods-testdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testdemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testdemo/Pods-testdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		58A8786793B2E1AEA44B0D96 /* Pods_testdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testdemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13BEB2E2715738900B36FB3 /* testdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13BEB312715738900B36FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B13BEB332715738900B36FB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B13BEB352715738900B36FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B13BEB382715738900B36FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B13BEB3B2715738900B36FB3 /* testdemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testdemo.xcdatamodel; sourceTree = "<group>"; };
@@ -53,8 +54,7 @@
 		B13BEB522715738B00B36FB3 /* testdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13BEB562715738B00B36FB3 /* testdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testdemoUITests.swift; sourceTree = "<group>"; };
 		B13BEB582715738B00B36FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B13BEB67271575BF00B36FB3 /* wwwVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wwwVC.swift; sourceTree = "<group>"; };
-		B13BEB6C2715766E00B36FB3 /* eeeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eeeeVC.swift; sourceTree = "<group>"; };
+		B13BECA127157E4800B36FB3 /* WaterfallFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB87139B2047815FDF91E71 /* Pods_testdemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		077C84773271346058BE1BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58A8786793B2E1AEA44B0D96 /* Pods_testdemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16A1F8ACA6644B913602FDCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5831691B3F4D7E2152CD9E5C /* Pods-testdemo.debug.xcconfig */,
+				52B04C8C43A7BBB9F63FD5EC /* Pods-testdemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B13BEB252715738900B36FB3 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +107,8 @@
 				B13BEB4A2715738B00B36FB3 /* testdemoTests */,
 				B13BEB552715738B00B36FB3 /* testdemoUITests */,
 				B13BEB2F2715738900B36FB3 /* Products */,
+				16A1F8ACA6644B913602FDCA /* Pods */,
+				077C84773271346058BE1BA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,10 +125,8 @@
 		B13BEB302715738900B36FB3 /* testdemo */ = {
 			isa = PBXGroup;
 			children = (
+				B13BECA127157E4800B36FB3 /* WaterfallFlowLayout.swift */,
 				B13BEB312715738900B36FB3 /* AppDelegate.swift */,
-				B13BEB332715738900B36FB3 /* SceneDelegate.swift */,
-				B13BEB67271575BF00B36FB3 /* wwwVC.swift */,
-				B13BEB6C2715766E00B36FB3 /* eeeeVC.swift */,
 				B13BEB352715738900B36FB3 /* ViewController.swift */,
 				B13BEB372715738900B36FB3 /* Main.storyboard */,
 				B13BEB3D2715738B00B36FB3 /* Assets.xcassets */,
@@ -144,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B13BEB5B2715738B00B36FB3 /* Build configuration list for PBXNativeTarget "testdemo" */;
 			buildPhases = (
+				827FFE3C104E19F16A2E341B /* [CP] Check Pods Manifest.lock */,
 				B13BEB2A2715738900B36FB3 /* Sources */,
 				B13BEB2B2715738900B36FB3 /* Frameworks */,
 				B13BEB2C2715738900B36FB3 /* Resources */,
@@ -262,17 +281,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		827FFE3C104E19F16A2E341B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testdemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B13BEB2A2715738900B36FB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13BECA227157E4800B36FB3 /* WaterfallFlowLayout.swift in Sources */,
 				B13BEB362715738900B36FB3 /* ViewController.swift in Sources */,
 				B13BEB322715738900B36FB3 /* AppDelegate.swift in Sources */,
 				B13BEB3C2715738900B36FB3 /* testdemo.xcdatamodeld in Sources */,
-				B13BEB342715738900B36FB3 /* SceneDelegate.swift in Sources */,
-				B13BEB6D2715766E00B36FB3 /* eeeeVC.swift in Sources */,
-				B13BEB68271575BF00B36FB3 /* wwwVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,12 +487,14 @@
 		};
 		B13BEB5C2715738B00B36FB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5831691B3F4D7E2152CD9E5C /* Pods-testdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SB7YMHP2Y9;
 				INFOPLIST_FILE = testdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,12 +508,14 @@
 		};
 		B13BEB5D2715738B00B36FB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B04C8C43A7BBB9F63FD5EC /* Pods-testdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SB7YMHP2Y9;
 				INFOPLIST_FILE = testdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
